@@ -9,8 +9,9 @@ const base = import.meta.env.BASE_URL;
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 lg:h-20">
         <!-- Logo -->
-        <a href="#" class="flex-shrink-0">
-          <img src={`${base}logo.png`} alt="Kaadi Financial" class="h-10 lg:h-12 w-auto dark:bg-white dark:rounded-lg dark:px-2 dark:py-1" />
+        <a href="#" class="flex-shrink-0 flex items-center gap-2">
+          <img src={`${base}k-icon.png`} alt="K" class="h-10 lg:h-12 w-auto" />
+          <span class="text-xl lg:text-2xl font-bold text-gray-900 dark:text-white">Kaadi <span class="text-sky-600">Financial</span></span>
         </a>
         
         <!-- Desktop Nav -->
@@ -413,7 +414,10 @@ const base = import.meta.env.BASE_URL;
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-3 gap-8">
         <div>
-          <img src={`${base}logo.png`} alt="Kaadi Financial" class="h-12 w-auto mb-4 bg-white rounded-lg px-2 py-1" />
+          <div class="flex items-center gap-2 mb-4">
+            <img src={`${base}k-icon.png`} alt="K" class="h-10 w-auto" />
+            <span class="text-xl font-bold text-white">Kaadi <span class="text-sky-400">Financial</span></span>
+          </div>
           <p class="text-gray-400">
             Your Partner in Financial Growth and Stability. Precision, reliability, and expertise for your financial success.
           </p>
